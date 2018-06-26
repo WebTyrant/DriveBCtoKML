@@ -1,0 +1,24 @@
+{
+  "name": "DriveBC511APItoKML",
+  "version": "1.0.0",
+  "description": "BC 511 API JSON to KML conversion for ArcGIS Online Mapping.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "keywords": [
+    "GeoJSON",
+    "JSON",
+    "KML"
+  ],
+  "author": "Neil Johnston",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "latest",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "tokml": "^0.4.0",
+    "xmldom": "^0.1.27"
+  },
+  "pkg": { "assets": "assets/**/*" }
+}

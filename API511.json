@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "jurisdiction_url": "http://api.open511.gov.bc.ca/jurisdiction",
+      "url": "http://api.open511.gov.bc.ca/events/drivebc.ca/RTMC_17679",
+      "id": "drivebc.ca/RTMC_17679",
+      "headline": "INCIDENT",
+      "status": "ACTIVE",
+      "created": "2018-06-12T03:43:52-07:00",
+      "updated": "2018-06-12T06:22:22-07:00",
+      "description": "Highway 5 southbound is now open to one lane, 15 km north of Hope because of Collision. The right lane is closed for vehicle recovery. Expect delays. Updated on Tue Jun 12 6:22 am PDT. (ID# RTMC_17679) (Data by www.DriveBC.ca).",
+      "+ivr_message": "Highway 5 southbound is now open to one lane, 15 km north of Hope because of Collision. The right lane is closed for vehicle recovery. Expect delays.",
+      "schedule": {
+        "intervals": [
+          "2018-06-12T10:43/"
+        ]
+      },
+      "event_type": "INCIDENT",
+      "severity": "MAJOR",
+      "geography": {
+        "type": "Point",
+        "coordinates": [
+          -121.30850449,
+          49.43382898
+        ]
+      },
+      "roads": [
+        {
+          "name": "Highway 5",
+          "direction": "S",
+          "state": "CLOSED"
+        }
+      ],
+      "areas": [
+        {
+          "url": "http://www.geonames.org/8630136",
+          "name": "Lower Mainland District",
+          "id": "drivebc.ca/1"
+        }
+      ]
+    },
+    {
+      "jurisdiction_url": "http://api.open511.gov.bc.ca/jurisdiction",
+      "url": "http://api.open511.gov.bc.ca/events/drivebc.ca/283518",
+      "id": "drivebc.ca/283518",
+      "headline": "INCIDENT",
+      "status": "ACTIVE",
+      "created": "2018-05-22T15:59:38-07:00",
+      "updated": "2018-06-12T10:02:39-07:00",
+      "description": "Highway 33, 8 km east of Kelowna is single lane alternating Monday to Friday from 7:00 AM through 6:00 PM. The road is fully open outside of those hours. Updated on Tue Jun 12 at 10:02 am PDT. (ID# 283518) (Data by www.DriveBC.ca).",
+      "+ivr_message": "Highway 33, 8 km east of Kelowna is single lane alternating Monday to Friday from 7:00 AM through 6:00 PM.  The road is fully open outside of those hours Last updated on Tuesday June 12 at 10:02 am.",
+      "schedule": {
+        "intervals": [
+          "2018-05-22T22:59/"
+        ]
+      },
+      "event_type": "INCIDENT",
+      "event_subtypes": [
+        "HAZARD"
+      ],
+      "severity": "MAJOR",
+      "geography": {
+        "type": "Point",
+        "coordinates": [
+          -119.32915645,
+          49.86570841
+        ]
+      },
+      "roads": [
+        {
+          "name": "Highway 33",
+          "from": "8 km south of Kelowna",
+          "direction": "BOTH",
+          "state": "SINGLE_LANE_ALTERNATING"
+        }
+      ],
+      "areas": [
+        {
+          "url": "http://www.geonames.org/8630138",
+          "name": "Okanagan-Shuswap District",
+          "id": "drivebc.ca/5"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "offset": "0"
+  },
+  "meta": {
+    "url": "/events",
+    "up_url": "",
+    "version": "v1"
+  }
+}
